@@ -1,0 +1,27 @@
+.nav-layout {
+  /* 覆盖全局的 vp-layout-max-width（仅当前页面使用） */
+  --vp-layout-max-width: 1660px;
+
+  /* 修改 layout 最大宽度 */
+  .container {
+    max-width: var(--vp-layout-max-width) !important;
+  }
+  .content-container,
+  .content {
+    max-width: 100% !important;
+  }
+}
+
+:root {
+  --nav-bg: #ffffff;
+  --nav-hover: #f3f4f6;
+  --nav-title: #1f2937;
+}
+
+.dark {
+  --nav-bg: #161618;
+  --nav-hover: #1db34a;
+  --nav-title: #f3f4f6;
+  --nav-desc: #aeaeae;
+  --nav-icon-bg: #26292f;
+}
