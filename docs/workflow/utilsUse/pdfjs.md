@@ -2,6 +2,7 @@
 prev:
   text: '常用库使用和配置'
   link: '/workflow/utilsUse'
+next: false
 ---
 
 # Vue 3 实现 PDF 文件预览

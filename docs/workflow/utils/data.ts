@@ -23,4 +23,16 @@ export const DATA: NavData[] = [
       }
     ]
   }
+  ,
+  {
+    title: '字符串文本处理',
+    items: [
+      {
+        icon: '',
+        title: 'jsdiff',
+        desc: 'JavaScript 文本差异比较',
+        link: 'https://github.com/kpdecker/jsdiff'
+      }
+    ]
+  }
 ]

@@ -12,7 +12,8 @@ export const nav: DefaultTheme.Config['nav'] = [
     items: [
       { text: '常用工具库', link: '/workflow/utils' },
       { items: [
-          { text: '常用库使用', link: '/workflow/utilsUse' }
+          { text: '常用库使用', link: '/workflow/utilsUse' },
+          { text: 'Tailwind CSS', link: '/workflow/tailwindcss' }
         ]
       }
     ]
