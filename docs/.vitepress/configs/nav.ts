@@ -25,6 +25,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: 'JavaScript', link: '/notes/js' },
       { text: '前端渲染模式', link: 'notes/render' },
       { text: 'Vue', link: '/notes/vue' },
+      { text: 'Git', link: '/notes/git' },
     ]
   },
   { text: '实用工具', link: '/tools' },

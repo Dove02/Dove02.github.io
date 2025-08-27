@@ -2,6 +2,7 @@
 layout: doc
 layoutClass: utils-layout
 next: false
+lastUpdated: false
 ---
 
 <style src="./index.scss"></style>

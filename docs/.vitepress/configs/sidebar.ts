@@ -32,6 +32,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       text: 'Vue',
       link: '/notes/vue'
     },
+    {
+      text: 'Git',
+      link: '/notes/git'
+    },
   ],
   '/workflow': [
     {

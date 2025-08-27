@@ -37,7 +37,7 @@ export const NAV_DATA: NavData[] = [
         icon: '/icons/vueuse.svg',
         title: 'VueUse',
         desc: 'Vue Composition API 的常用工具集',
-        link: 'https://vueuse.org'
+        link: 'https://vueuse.org.cn/'
       }
     ]
   },
@@ -111,8 +111,14 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '构建工具',
+    title: '编译&&构建',
     items: [
+      {
+        icon: '/icons/babel.png',
+        title: 'Babel 中文文档',
+        desc: 'Babel 是一个 JavaScript 编译器',
+        link: 'https://www.babeljs.cn/'
+      },
       {
         icon: '/icons/vite.svg',
         title: 'Vite 中文文档',
@@ -163,6 +169,12 @@ export const NAV_DATA: NavData[] = [
         title: '现代 JavaScript 教程',
         desc: '以最新的 JavaScript 标准为基准。通过简单但足够详细的内容，为你讲解从基础到高阶的 JavaScript 相关知识',
         link: 'https://zh.javascript.info/' 
+      },
+      {
+        icon: '',
+        title: 'Babel 教程 - 姜瑞涛的官方网站',
+        desc: '对新人友好的 Babel 教程',
+        link: 'https://www.jiangruitao.com/babel/' 
       }
     ]
   },

@@ -30,7 +30,7 @@ defineProps<{
 .container {
   --gap: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: var(--gap);
   grid-auto-flow: row dense;
   justify-content: center;

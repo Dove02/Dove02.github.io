@@ -2,7 +2,10 @@
 prev:
   text: '前端渲染模式'
   link: '/notes/render'
-next: false
+
+next:
+  text: 'Git'
+  link: '/notes/git'
 
 title: 'Vue 3'
 
