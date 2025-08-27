@@ -1,7 +1,7 @@
 ---
 prev:
-  text: 'CSS'
-  link: '/notes/css'
+  text: 'JavaScript'
+  link: '/notes/js'
 
 next: 
   text: 'Vue'

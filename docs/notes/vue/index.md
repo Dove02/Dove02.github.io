@@ -14,11 +14,11 @@ outline: 2
 
 ## 自定义指令
 
-指令的任务是，在表达式的值变化时响应式地更新 DOM。自定义指令允许我们扩展 Vue 的功能，直接操作 DOM。
-
 ::: tip 使用时机
 只有当所需功能只能通过直接的 DOM 操作来实现时，才应该使用自定义指令。
 :::
+
+指令的任务是，在表达式的值变化时响应式地更新 DOM。自定义指令允许我们扩展 Vue 的功能，直接操作 DOM。
 
 
 ### 注册
@@ -175,3 +175,33 @@ function copyTextToClipboard(input, { target = document.body } = {}) {
 
 ```
 :::
+
+
+
+## API
+
+
+### app.config.globalProperties
+
+::: details 定义
+一个用于注册能够被应用内所有组件实例访问到的全局属性的对象。
+
+这是对 Vue 2 中 Vue.prototype 使用方式的一种替代，此写法在 Vue 3 已经不存在了。与任何全局的东西一样，应该谨慎使用。
+:::
+
+
+#### 用法
+
+注册全局属性：
+```js
+app.config.globalProperties.$globalVar = 'globalVar'
+```
+
+使用：
+```js
+import { getCurrentInstance } from "vue";
+
+const { proxy } = getCurrentInstance();
+
+console.log(proxy.$globalVar);
+```

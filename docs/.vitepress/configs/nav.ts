@@ -17,14 +17,14 @@ export const nav: DefaultTheme.Config['nav'] = [
         ]
       }
     ]
-    
   },
   { text: '笔记',
     items: [
       { text: 'Web API', link: '/notes/dom' },
       { text: 'CSS', link: '/notes/css' },
+      { text: 'JavaScript', link: '/notes/js' },
       { text: '前端渲染模式', link: 'notes/render' },
-      { text: 'Vue', link: '/notes/vue' }
+      { text: 'Vue', link: '/notes/vue' },
     ]
   },
   { text: '实用工具', link: '/tools' },

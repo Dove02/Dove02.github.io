@@ -21,13 +21,17 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       link: '/notes/css'
     },
     {
+      text: 'JavaScript',
+      link: '/notes/js'
+    },
+    {
       text: '前端渲染模式',
       link: '/notes/render'
     },
     {
       text: 'Vue',
       link: '/notes/vue'
-    }
+    },
   ],
   '/workflow': [
     {

@@ -11,14 +11,14 @@ hero:
     alt: Dove
   actions:
     - theme: brand
-      text: 进入博客
-      link: /markdown-examples
-    - theme: alt
-      text: 进入仓库
-      link: https://github.com/
+      text: 前往仓库
+      link: https://github.com/Dove02
+    # - theme: alt
+    #   text: 进入仓库
+    #   link: https://github.com/
 
 features:
-  - icon: 📖
+  - icon: 🧭
     title: 前端导航
     details: 前端文档、工具链等<br><small>(随本人技术栈更新)</small>
     link: /nav
@@ -26,7 +26,12 @@ features:
   - icon: 💡
     title: 教程
     details: 一些教程
-    link: /course
+    link: /course/blog
+    linkText: 查看详情
+  - icon: ✒
+    title: 笔记
+    details: 
+    link: /notes/dom
     linkText: 查看详情
   - icon: 🛠
     title: 实用工具
