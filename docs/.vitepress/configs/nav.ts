@@ -22,7 +22,7 @@ export const nav: DefaultTheme.Config['nav'] = [
     items: [
       { text: 'Web API', link: '/notes/dom' },
       { text: 'CSS', link: '/notes/css' },
-      { text: 'JavaScript', link: '/notes/js' },
+      { text: 'ES6', link: '/notes/js/es6' },
       { text: '前端渲染模式', link: 'notes/render' },
       { text: 'Vue', link: '/notes/vue' },
       { text: 'Git', link: '/notes/git' },

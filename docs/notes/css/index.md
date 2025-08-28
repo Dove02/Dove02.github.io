@@ -4,8 +4,8 @@ prev:
   link: '/notes/dom'
 
 next:
-  text: 'JavaScript'
-  link: '/notes/js'
+  text: 'ES6'
+  link: '/notes/js/es6'
 ---
 
 # CSS

@@ -18,6 +18,17 @@ export const DATA: NavData[] = [
     ]
   },
   {
+    title: '地图库',
+    items: [
+      {
+        icon: '',
+        title: 'leaflet',
+        desc: '一个开源并且对移动端友好的交互式地图 JavaScript 库',
+        link: 'https://github.com/Leaflet/Leaflet?tab=readme-ov-file'
+      }
+    ]
+  },
+  {
     title: '工具库',
     items: [
       {

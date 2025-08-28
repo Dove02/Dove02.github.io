@@ -12,38 +12,21 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     }
   ],
   '/notes': [
-    {
-      text: 'Web API',
-      link: '/notes/dom'
-    },
-    {
-      text: 'CSS',
-      link: '/notes/css'
-    },
+    { text: 'Web API', link: '/notes/dom' },
+    { text: 'CSS', link: '/notes/css' },
     {
       text: 'JavaScript',
-      link: '/notes/js'
+      items: [
+        { text: 'ES6', link: '/notes/js/es6' }
+      ]
     },
-    {
-      text: '前端渲染模式',
-      link: '/notes/render'
-    },
-    {
-      text: 'Vue',
-      link: '/notes/vue'
-    },
-    {
-      text: 'Git',
-      link: '/notes/git'
-    },
+    { text: '前端渲染模式', link: '/notes/render' },
+    { text: 'Vue', link: '/notes/vue' },
+    { text: 'Git', link: '/notes/git' },
   ],
   '/workflow': [
-    {
-      text: '常用工具库', link: '/workflow/utils'
-    },
-    {
-      text: 'Tailwind CSS', link: '/workflow/tailwindcss'
-    },
+    { text: '常用工具库', link: '/workflow/utils' },
+    { text: 'Tailwind CSS', link: '/workflow/tailwindcss' },
     {
       text: '常用库使用和配置',
       items: [
