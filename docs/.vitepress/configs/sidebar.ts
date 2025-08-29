@@ -9,6 +9,13 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '基于 VitePress（New）', link: '/course/blog/vitepress' },
         { text: '部署', link: '/course/blog/deploy' }
       ]
+    },
+    {
+      text: '数据库安装',
+      items: [
+        { text: 'PostgreSQL（Windows）', link: '/course/database/pgsql' },
+        { text: 'PostGIS 扩展', link: '/course/database/postgis' }
+      ]
     }
   ],
   '/notes': [
@@ -23,6 +30,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     { text: '前端渲染模式', link: '/notes/render' },
     { text: 'Vue', link: '/notes/vue' },
     { text: 'Git', link: '/notes/git' },
+    { text: 'GIS', link: '/notes/gis' },
   ],
   '/workflow': [
     { text: '常用工具库', link: '/workflow/utils' },

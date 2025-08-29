@@ -1,5 +1,7 @@
 ---
 title: '部署'
+
+next: false
 ---
 
 # {{ $frontmatter.title }}

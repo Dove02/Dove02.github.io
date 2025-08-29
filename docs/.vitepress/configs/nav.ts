@@ -4,7 +4,8 @@ export const nav: DefaultTheme.Config['nav'] = [
   { text: '前端导航', link: '/nav', activeMatch: '/nav/' },
   { text: '教程',
     items: [
-      { text: '博客搭建', link: '/course/blog' }
+      { text: '博客搭建', link: '/course/blog' },
+      { text: '数据库安装', link: '/course/database' }
     ]
   },
   {
@@ -26,6 +27,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: '前端渲染模式', link: 'notes/render' },
       { text: 'Vue', link: '/notes/vue' },
       { text: 'Git', link: '/notes/git' },
+      { text: 'GIS', link: '/notes/gis' },
     ]
   },
   { text: '实用工具', link: '/tools' },

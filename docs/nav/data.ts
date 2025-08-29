@@ -171,6 +171,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://zh.javascript.info/' 
       },
       {
+        icon: '/icons/es6.webp',
+        title: 'ES6 入门教程',
+        desc: '开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性',
+        link: 'https://es6.ruanyifeng.com/'
+      },
+      {
         icon: '',
         title: 'Babel 教程 - 姜瑞涛的官方网站',
         desc: '对新人友好的 Babel 教程',
