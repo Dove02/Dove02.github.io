@@ -67,6 +67,12 @@ export const DATA: NavData[] = [
     items: [
       {
         icon: '',
+        title: 'dayjs',
+        desc: '轻量的处理时间和日期的 JavaScript 库，和 Moment.js 的 API 设计保持完全一样. 如果您曾经用过 Moment.js, 那么您已经知道如何使用 Day.js',
+        link: 'https://github.com/iamkun/dayjs'
+      },
+      {
+        icon: '',
         title: 'moment',
         desc: '用于解析、验证、操作和格式化日期的 JavaScript 日期库',
         link: 'https://github.com/moment/moment'
