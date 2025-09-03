@@ -34,13 +34,14 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   ],
   '/workflow': [
     { text: '常用工具库', link: '/workflow/utils' },
-    { text: 'Tailwind CSS', link: '/workflow/tailwindcss' },
     {
       text: '常用库使用和配置',
       items: [
         { text: 'pdf.js', link: '/workflow/utilsUse/pdfjs' },
-        { text: 'jsdiff', link: '/workflow/utilsUse/jsdiff' }
+        { text: 'jsdiff', link: '/workflow/utilsUse/jsdiff' },
+        { text: 'Tailwind CSS', link: '/workflow/tailwindcss' },
       ]
     },
+    { text: '命令行工具', link: '/workflow/cli' }
   ]
 };

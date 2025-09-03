@@ -11,12 +11,13 @@ export const nav: DefaultTheme.Config['nav'] = [
   {
     text: 'Workflow',
     items: [
-      { text: '常用工具库', link: '/workflow/utils' },
       { items: [
-          { text: '常用库使用', link: '/workflow/utilsUse' },
-          { text: 'Tailwind CSS', link: '/workflow/tailwindcss' }
-        ]
-      }
+        { text: '常用工具库', link: '/workflow/utils' },
+        { text: '常用库使用', link: '/workflow/utilsUse' },
+      ]
+      },
+      { text: 'Tailwind CSS', link: '/workflow/tailwindcss' },
+      { text: '命令行工具', link: '/workflow/cli' }
     ]
   },
   { text: '笔记',
