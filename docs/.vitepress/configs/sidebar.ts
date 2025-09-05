@@ -31,11 +31,21 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     { text: 'Vue', link: '/notes/vue' },
     { text: 'Git', link: '/notes/git' },
     { text: 'GIS', link: '/notes/gis' },
+    { 
+      text: 'AI 相关需求',
+      link: '/notes/ai',
+      items: [
+        { text: '回答流式输出', link: '/notes/ai/stream' },
+        { text: '中止回答', link: '/notes/ai/abort' },
+        { text: '智能绘图', link: '/notes/ai/chart' },
+      ]
+    }
   ],
   '/workflow': [
     { text: '常用工具库', link: '/workflow/utils' },
     {
       text: '常用库使用和配置',
+      link: '/workflow/utilsUse',
       items: [
         { text: 'pdf.js', link: '/workflow/utilsUse/pdfjs' },
         { text: 'jsdiff', link: '/workflow/utilsUse/jsdiff' },

@@ -29,6 +29,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: 'Vue', link: '/notes/vue' },
       { text: 'Git', link: '/notes/git' },
       { text: 'GIS', link: '/notes/gis' },
+      { text: 'AI 相关需求', link: '/notes/ai' },
     ]
   },
   { text: '实用工具', link: '/tools' },

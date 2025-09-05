@@ -63,6 +63,17 @@ export const DATA: NavData[] = [
     ]
   },
   {
+    title: '请求处理',
+    items: [
+      {
+        icon: '',
+        title: 'axios',
+        desc: '基于 promise 网络请求库，作用于 node.js 和浏览器中',
+        link: 'https://axios-http.com/zh/docs/intro'
+      }
+    ]
+  },
+  {
     title: '时间处理',
     items: [
       {
